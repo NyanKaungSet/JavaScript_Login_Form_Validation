@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="div1">
+        <h2>Login Form</h2>
+        <form name="myForm" method="post">
+            <label>Username</label>
+            <input class="inputText" type="text" placeholder="Enter Username" id="username" autocomplete="off" onkeyup="User()">
+            <br><br>
+            <label>Password</label>
+            <input class="inputText" type="text" placeholder="Enter Password" id="password" autocomplete="off" onkeyup="PW()">
+            <br><br>
+            <input id="button" type="button" value="login" onclick="Login()">
+            <br><br>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

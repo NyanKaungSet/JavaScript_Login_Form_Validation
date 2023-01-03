@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+
+.div1{
+    max-width: 350px;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 75px;
+    background-color: rgb( 73 , 70 , 70);
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    color: gold;
+}
+label{
+    color: white;
+    padding-left: 10px;
+    display: block;
+}
+.inputText{
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    padding-left: 8px;
+}
+#button{
+    text-align: center;
+    width: 60%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+}
