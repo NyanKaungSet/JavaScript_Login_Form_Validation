@@ -26,6 +26,10 @@ function Login(){
         document.getElementById("username").disabled = true;
         document.getElementById("password").disabled = true;
         document.getElementById("button").disabled = true;
+        document.getElementById('username').value = ''
+        document.getElementById('password').value = ''
+        username.style.backgroundColor = "#dddddd";
+        password.style.backgroundColor = "#dddddd";
     } 
 } 
 
