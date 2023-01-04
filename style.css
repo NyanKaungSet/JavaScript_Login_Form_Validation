@@ -1,12 +1,17 @@
 body{
     margin: 0;
+    position: relative;
+    min-height: 100vh;
 }
 
 .div1{
-    max-width: 350px;
-    margin: 100px auto;
+    max-width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     overflow: hidden;
-    padding: 75px;
+    padding: 55px;
     background-color: rgb( 73 , 70 , 70);
     border-radius: 10px;
 }
@@ -23,15 +28,19 @@ label{
     width: 350px;
     height: 30px;
     border: none;
+    display: block;
+    margin: auto;
     border-radius: 2px;
     padding-left: 8px;
 }
 #button{
-    text-align: center;
+    display: block;
+    margin: auto;
     width: 60%;
     height: 30px;
     border: none;
     border-radius: 10px;
-    color: black;
+    color: white;
+    background-color: blue;
     font-size: 16px;
 }

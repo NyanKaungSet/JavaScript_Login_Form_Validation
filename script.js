@@ -16,7 +16,7 @@ function Login(){
         alert("Welcome " + usernameValue + ". Please wait for a moment");
         setTimeout(() => {
             window.location.href="mainpage.html";
-            }, 3000);
+        }, 3000);
     }
     else{
         attempt --;
@@ -35,12 +35,10 @@ function User(){
     if(usernameValue =="User1"){
         username.style.backgroundColor = "green";
         username.style.color = "white";
-        console.log("Correct!")
     }
     else{
         username.style.backgroundColor = "red";
         username.style.color = "white";
-        console.log("Wrong!")
     }
 }
 
@@ -50,11 +48,9 @@ function PW(){
     if(passwordValue =="1"){
         password.style.backgroundColor = "green";
         password.style.color = "white";
-        console.log("Correct!")
     }
     else{
         password.style.backgroundColor = "red";
         password.style.color = "white";
-        console.log("Wrong!")
     }
 }
