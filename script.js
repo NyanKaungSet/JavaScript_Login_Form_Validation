@@ -54,3 +54,17 @@ function PW(){
         password.style.color = "white";
     }
 }
+
+
+$("input").bind("keydown", function(event) {
+    if (event.which === 40) {
+        event.stopPropagation();
+        event.preventDefault();
+        $(':input:eq(' + ($(':input').index(this) + 1) + ')').focus();
+    }
+    if (event.which === 38) {
+        event.stopPropagation();
+        event.preventDefault();
+        $(':input:eq(' + ($(':input').index(this) - 1) + ')').focus();
+    }
+});
